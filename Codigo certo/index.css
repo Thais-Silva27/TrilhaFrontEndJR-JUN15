@@ -2,7 +2,229 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    color: ffffff;
     font-family: "Poppins", sans-serif;
 }
+
+body {     
+    background: linear-gradient(119deg, rgba(229, 57, 57, 1) 10%, rgba(217, 88, 96, 1) 24%, rgba(255, 255, 255, 1) 36%, rgba(255, 255, 255, 1) 58%, rgba(99, 96, 96, 1) 72%, rgba(0, 0, 0, 1) 89%);
+   
+}
+
+.header {
+   padding: 25px 0;
+   margin-bottom: 100px;
+   padding-top: 10px;
+   padding-bottom:50px;
+   margin-bottom: -50px;
+   
+}
+
+.cabecalho {
+    margin-top: -50px;  
+    background-color:#e53939;  
+      
+}
+
+.cabecalho h1 {
+    text-align:left;
+    margin-left: 60px;  
+    position: absolute;
+    margin-top: -130px;
+    padding: 55px;
+      
+}
+
+.cabecalho p {
+    text-align:left;
+    margin-left: 50px;  
+    position: absolute;
+    margin-top: -90px;
+    padding: 55px;
+      
+}
+
+.cabecalho img{
+    max-width: 70px;
+    padding-top: 100px;
+    margin-left: 20px;
+    
+}
+
+.contato nav ul {
+    display: flex; 
+    justify-content: flex-start; 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.contato nav ul li {
+    margin-right: -800px; 
+    margin-left: 850px;
+    margin-top: -56px;
+}
+
+.contato nav ul li img {
+    width: 50px; 
+    height: auto; 
+    border-radius: 24px;
+}
+
+.contato img {
+    transition: transform 0.3s ease; 
+}
+
+.contato img:hover {
+    transform: scale(1.4);
+}
+
+.perfil img {
+    max-width: 200px;
+    height:150px;    
+    margin-top: 40px;
+    margin-left: 150px;
+    position: absolute;
+    border-radius: 30px;
+    border-color: #000000;
+    border-style: double;
+}
+
+.perfil1 img {
+    width: 180px;
+    height:180px;    
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-left: 110px;
+    border-radius: 30px;
+    border-style: double;
+}
+
+.descricao {
+    margin-left: 350px;
+    margin-right: 200px;
+    margin-top: -180px;
+}
+
+.destaque {
+    color:#000000;
+    font-size: 35px;
+    font-weight: 300px;
+   }
+
+.descricao {
+    margin-bottom: -200px;
+}
+
+.descricao p {
+    background: linear-gradient(45deg, #000000, #e53939,#000000 ); 
+    -webkit-background-clip: text;  
+        color: transparent;  
+}
+
+.conhecimentos img {
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.footer {
+ margin-bottom: 50px;
+ margin-top: 15px;  
+}
+
+.rodape {
+    margin-bottom: -40px;
+    margin-top: 250px;  
+    background-color: #e53939;
+    padding: 20px;
+    padding-bottom: 16px;
+}
+
+.rodape p {
+    text-align: center;
+    color:#000000;
+}
+
+.rodape a {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+
+ @media screen and (max-width: 768px) {
+    body {     
+       padding: auto;
+       
+    }   
+
+
+    .cabecalho h1 {
+        text-align:left;
+        margin-left: 100px;  
+        position: absolute;
+                       
+    }
+    
+    .cabecalho p {
+        text-align:left;
+        margin-left: 80px;  
+        position: absolute;
+        margin-top: -90px;
+        padding: 55px;
+          
+    }
+    
+    .cabecalho img{
+        max-width: 60px;
+        padding-top: 100px;
+        margin-left: 40px;
+        
+    }
+
+    .contato nav ul li {
+    margin-right: -400px; 
+    margin-left: 410px;
+
+    }
+
+    .contato nav ul {
+        display: flex; 
+        justify-content:center; 
+        list-style: none; 
+        margin-top: 80px;
+        margin-left: -780px;
+        
+    }
+
+    .descricao {
+        margin-left: 30px;
+        margin-right: 50px;
+        margin-top: 58px;
+    }
+    
+    .destaque {
+        color:#000000;
+        font-size: 35px;
+        font-weight: 300px;
+       }
+    
+    .descricao {
+        margin-bottom: -20px;
+    }
+    
+    .descricao p {
+        background: linear-gradient(45deg, #000000, #e53939,#000000 ); 
+        -webkit-background-clip: text;  
+           
+    }
+    
+    .conhecimentos img {
+        max-width: 80%;
+    }
+
+    .conhecimentos  {
+        margin-right: -15px;
+    }
+
+ }
 
